@@ -117,3 +117,46 @@ footer p {
 }
 
 /* -------  Media Query ------- */
+@media all and (min-width: 768px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  nav {
+    padding-top: 10px;
+  }
+
+  #menu {
+    flex-wrap: wrap;
+    line-height: 1.4;
+  }
+
+  form {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .logo {
+    font-size: 72px;
+  }
+
+  .form-group {
+    flex-direction: column;
+    min-width: 0;
+  }
+
+  .group {
+    flex-direction: row;
+  }
+
+  .idea {
+    flex-direction: column;
+  }
+
+  .host-group, #host .item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
